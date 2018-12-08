@@ -30,6 +30,10 @@ $btn-clr: #fff
 	color: $btn-clr
 	background-color: $btn-bg
 
+	&:hover
+		color: #fff
+		box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5)
+
 .hero
 	background: #000
 
@@ -57,6 +61,10 @@ $btn-clr: #fff
 	border: none
 	border-radius: $btn-rad
 	color: $btn-clr
+
+	&:hover
+		color: #fff
+		box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5)
 	
 .load, .trial
 	top: 440px
@@ -77,13 +85,9 @@ $btn-clr: #fff
 	color: #635c73
 	margin-bottom: 40px
 
-.parent
-	position: relative
-	
-
 .ch
-	position: absolute
-	top: -800px
+	position: relative
+	top: -570px
 	right: -480px
 
 .whatuget
@@ -91,7 +95,7 @@ $btn-clr: #fff
 	font-weight: bold
 	color: #8d81ac
 
-.preferences
+#preferences
 	height: 970px
 	background-color: #f4f4f4
 	padding-top: 100px
@@ -99,9 +103,17 @@ $btn-clr: #fff
 .list
 	top: -50px
 
-.mask
+#mask
 	padding-top: 85px
 	padding-bottom: 110px
+
+h4
+	font-size: 24px
+	font-weight: bold !important
+	color: #635c73 !important
+
+span 
+	color: #9f95b8
 
 #carouselExampleControls
 	margin-top: 35px
@@ -143,7 +155,167 @@ $btn-clr: #fff
 		color: #fff
 		box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5)
 
-
 hr 
 	width: 780px
 	padding-bottom: 60px
+
+#testimonials
+	background: url(../img/base.png) center no-repeat/ cover
+	background-size: 
+	padding-top: 100px
+	text-align: center
+
+	h2
+		color: #fff
+		font-size: 48px
+		font-weight: bold
+
+	img
+		margin-top: 100px
+
+	hr
+		color: #655969
+		height: 1px
+
+.descr
+	color: #fff
+	font-size: 16px
+	font-style: italic
+	font-weight: bold
+	line-height: 2
+	margin-top: 35px
+
+#pricing
+	background: url(../img/bg3.png) center no-repeat/ cover
+	text-align: center
+	padding: 80px
+
+	h2
+		color: #fff
+		font-size: 48px
+		font-weight: bold
+		margin-bottom: 130px
+
+	.price-variety
+		padding: 0
+		background: rgba(255, 255, 255, 0.1)
+		width: 250px
+
+		h3
+			height: 95px
+			width: 100%
+			background: rgba(255, 255, 255, 0.2)
+			color: #fff
+			text-transform: uppercase
+			line-height: 95px
+		
+		.cost
+			font-size: 60px
+			color: #fff
+			font-weight: bold
+
+		.per-month
+			font-size: 14px
+			color: rgba(255, 255, 255, 0.2)
+			text-transform: uppercase
+
+		hr
+			margin-top: 40px
+			width: 60px
+			height: 5px
+
+		.license
+			font-size: 16px
+			color: #fff
+			text-transform: uppercase
+			margin-bottom: 30px
+
+		.purchase
+			width: 190px
+			height: 52px
+			border: none
+			border-radius: 30px
+			background: rgba(255, 255, 255, 0.2)
+			text-transform: uppercase
+			color: #fff
+			margin-bottom: 40px
+
+		&:hover
+			background-color: rgba(57, 45, 61, 0.1)
+			transform: scale(1.1)
+
+.duis
+	margin-top: 125px
+	font-size: 14px
+	color: #a291a5
+
+.subscribe-here
+	background: #f4f4f4
+	padding: 50px 50px
+	text-align: center
+
+	h2
+		color: #635c73
+
+input
+	width: 335px
+	height: 40px
+	border: none
+	border-radius: 30px
+	padding-left: 30px
+
+.subscribe
+	width: 140px
+	height: 40px
+	background: #8d81ac
+	border: none
+	border-radius: 30px !important
+	color: #fff
+	text-transform: uppercase
+
+	&:hover
+		color: #fff
+		box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5)
+
+#links
+	padding: 80px
+
+	h2
+	font-size: 28px
+	font-weight: bold
+	color: #d3d1da
+
+	h3
+		font-size: 16px
+		color: #8d81ac
+
+	p 
+		font-size: 13px
+		color: #a1a8af
+
+	.black
+		color: #000
+
+	hr
+		margin-top: 50px
+
+.goto
+	width: 165px
+	height: 35px
+	background: #f4f4f4
+	border-radius: 5px
+	color: #8d81ac
+
+	&:hover
+		color: #8d81ac
+		box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.5)
+
+footer 
+	padding-bottom: 100px
+
+	p
+		color: #a1a8af
+		font-size: 14px
+
+	h3
+		color: #3f3f3f
